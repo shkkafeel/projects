@@ -44,6 +44,9 @@ main {
     font-size: 20px;
     border-radius: 0px;
     background-color: #a2d8f7;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 
 footer {
@@ -88,3 +91,8 @@ section:hover{
     scale: 1.1;
 }
 
+@media  (max-width: 40em) {
+    section{
+        margin-bottom: 50px;
+    }
+}
