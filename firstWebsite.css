@@ -104,7 +104,8 @@ nav {
         padding: 20px; /* Adjust padding for better mobile layout */
     }
     section {
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 60px;
         padding: 20px;
     }
     nav {
@@ -112,7 +113,7 @@ nav {
         grid-template-rows: auto auto auto;
     }
     a {
-        width: 90%;
+        width: 85%;
         border-radius: 0;
         margin-bottom: 10px;
     }
