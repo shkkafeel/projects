@@ -99,7 +99,7 @@ nav {
 
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1080px) {
     main {
         padding: 20px; /* Adjust padding for better mobile layout */
     }
@@ -112,7 +112,7 @@ nav {
         grid-template-rows: auto auto auto;
     }
     a {
-        width: 100%;
+        width: 90%;
         border-radius: 0;
         margin-bottom: 10px;
     }
