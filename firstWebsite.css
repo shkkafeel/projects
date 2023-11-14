@@ -99,7 +99,7 @@ nav {
 
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
     main {
         padding: 20px; /* Adjust padding for better mobile layout */
     }
