@@ -20,14 +20,12 @@ header {
     font-weight: bold;
 }
 
-nav {
-    background-color: rgb(96, 96, 255);
-}
 
 a {
    color: rgb(0, 0, 0);
    text-decoration:none;
-   margin-left: 40px;
+   margin-left: 5px;
+   text-align: center;
    background-color: #a2d8f7;
    border-radius: 50px;
    padding: 15px;
@@ -37,6 +35,7 @@ a {
 
 a:hover {
  padding: 28px;
+ text-align: center;
 }
 
 main {
@@ -91,8 +90,33 @@ section:hover{
     scale: 1.1;
 }
 
+nav {
+    background-color: rgb(96, 96, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+}
+
 @media  (max-width: 40em) {
     section{
         margin-bottom: 50px;
+    }
+}
+
+@media  (max-width:40em){
+    nav{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    a{
+        width: 90%;
+        border-radius: 0px;
+        margin-bottom: 2px;
+    }
+    a:hover{
+        padding: 15px;
+    }
+    .icons{
+        scale: 1.3;
     }
 }
