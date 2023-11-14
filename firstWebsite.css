@@ -100,26 +100,32 @@ nav {
 
 
 @media screen and (max-width: 780px) {
+    main {
+        padding: 20px; /* Adjust padding for better mobile layout */
+    }
     section {
-        margin-bottom: 50px;
-        padding: 30px; /* Adjust padding for better mobile layout */
+        margin-bottom: 20px;
+        padding: 20px;
     }
     nav {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
     }
     a {
-        width: 90%;
-        border-radius: 0px;
-        margin-bottom: 2px;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 10px;
     }
     a:hover {
         padding: 15px;
     }
     .icons {
-        transform: scale(1.3);
+        width: 100%; /* Adjust width for better mobile layout */
+        margin-left: 0;
+        transform: scale(1.1);
     }
 }
+
 
 
 
