@@ -97,13 +97,12 @@ nav {
     grid-template-rows: auto;
 }
 
-@media  (max-width: 40em) {
+
+
+@media screen and (max-width:50em){
     section{
         margin-bottom: 50px;
     }
-}
-
-@media  (max-width:40em){
     nav{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -120,3 +119,4 @@ nav {
         scale: 1.3;
     }
 }
+
