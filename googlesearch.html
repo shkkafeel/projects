@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button {
+            border: 0px; 
+            background-color: white;
+            
+        }
+
+        img {
+            width: 22px;
+            mix-blend-mode: multiply;
+            position: absolute;
+            top: 9px;
+            left: 275px;
+        }
+
+        div {
+            position: absolute;
+            top: 330px;
+            left: 550px;
+        }
+
+        body > img {
+            width: 400px;
+            position: absolute;
+            top: 110px;
+            left: 450px;
+        }
+
+        input[type="text"] {
+            width: 400px;
+            height: 30px;
+            position: absolute;
+            left: -100px;
+            border-radius: 20px;
+            padding: 5px 0px 5px 10px;
+            border: 1px solid grey;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media screen and (max-width: 360px) {
+            input[type="text"]{
+                top: 0px;
+                left: -525px;
+                width: 300px;
+            }
+            img{
+                left: -250px;
+            }
+            body > img{
+                top: 150px;
+                left: 30px;
+                width: 300px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw" alt="">
+    <form action="https://www.google.com/search?q=">
+        <div>
+            <input type="text" placeholder="Search Google or type a URL" name="q" value=""> <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlWBnJ-PpLiQdEiHfutdlogpxPJafCK4Cg&usqp=CAU" alt=""></button>
+        </div>
+
+
+    </form>
+</body>
+</html>
