@@ -1,0 +1,26 @@
+
+body { 
+    background-color: rgb(151, 90, 208);
+}
+
+form {
+    backdrop-filter: blur(16px) saturation(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(143, 15, 15, 0.75);
+    opacity: 90%;
+    width: 30%;
+    margin: 0px auto;
+}
+
+input[type="radio"]:checked + label{
+    color: rgb(5, 249, 208);
+}
+
+div:hover {
+    color: rgb(98, 255, 0);
+}
+
+body {
+    margin: 50px;
+    
+}

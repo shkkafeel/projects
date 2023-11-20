@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
+
     <!-- Form tags consists of few important attributes (action="") its tell where to send the data,it can take any value (method="") it tells how to send the data,it takes few predefined value such as "get" "post" "dialog" "del" "patch" etc these are https
     but in Html we use only "get,post,dialog", it is a request .Request has two type header and body,in get method
     header part contains data while body is null and vice-versa is for post method when we use method attribute then
@@ -16,52 +18,75 @@
     enctype="multipart/form-data"). -->
 
     <form action="#">
+
         <fieldset>
             <legend>Personal Information</legend>
 
-            <!-- fname -->
-            <label for="firstname">First Name</label>
-            <input name="firstname" id="firstname" type="text" placeholder="enter first name">
-            <br> <br>
-            <!-- lname -->
-            <label for="lastname">Last Name</label>
-            <input name="lastname" id="lastname" value="Kafeel" type="text" placeholder="enter last name" required>
-            <br> <br>
-            <!-- age -->
-            <label for="age">Age</label>
-            <input name="age" id="age" type="number" placeholder="enter your age">
-            <br> <br>
-            <!-- gender -->
-            Gender
-            <input type="radio" name="gender" value="male" id="male">
-            <label for="male">Male</label>
-            <input type="radio" name="gender" value="female" id="female">
-            <label for="female">Female</label>
-            <br> <br>
-            <!-- hobbies -->
-            Hobbies
-            <input type="checkbox" id="cri" name="cricket" value="cricket"> <!-- value is for server -->
-            <label for="cri">Cricket</label>
+            <div>
 
-            <input type="checkbox" id="fb" name="football" value="football">
-            <label for="fb">Football</label>
+                <!-- fname -->
+                <label for="firstname">First Name</label>
+                <input name="firstname" id="firstname" value="Sheikh" placeholder="enter first name">
+                <br> <br>
+            </div>
 
-            <input type="checkbox" id="rb" name="rugby" value="rugby">
-            <label for="rb">Rugby</label>
-            <br> <br>
+            <div>
+                <!-- lname -->
+                <label for="lastname">Last Name</label>
+                <input name="lastname" id="lastname" value="Kafeel" type="text" placeholder="enter last name" required>
+                <br> <br>
+            </div>
 
-            <!-- state -->
-            <label for="dist">District</label>
-            <select name="district" id="dist">
-                <option value="srinagar">Srinagar</option>
-                <option value="ganderbal">Ganderbal</option>
-                <option value="sopore">Sopore</option>
-                <option value="uri">Uri</option>
-            </select>
-            <br> <br>
-            <input type="file">
-            <br><br>
-            <input type="submit" value="Submit">
+            <div>
+                <!-- age -->
+                <label for="age">Age</label>
+                <input name="age" id="age" value="24" placeholder="enter your age">
+                <br> <br>
+            </div>
+
+            <div>
+                <!-- gender -->
+                Gender
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+                <br> <br>
+            </div>
+
+            <div>
+                <!-- hobbies -->
+                Hobbies
+                <input type="checkbox" id="cri" name="cricket" value="cricket"> <!-- value is for server -->
+                <label for="cri">Cricket</label>
+
+                <input type="checkbox" id="fb" name="football" value="football">
+                <label for="fb">Football</label>
+
+                <input type="checkbox" id="rb" name="rugby" value="rugby">
+                <label for="rb">Rugby</label>
+                <br> <br>
+            </div>
+
+            <div>
+
+                <!-- state -->
+                <label for="dist">District</label>
+                <select name="district" id="dist">
+                    <option value="srinagar">Srinagar</option>
+                    <option value="ganderbal">Ganderbal</option>
+                    <option value="anantnag">Anantnag</option>
+                    <option value="shopian">Shopian</option>
+                </select>
+                <br> <br>
+            </div>
+
+            <div>
+                <input type="file">
+                <br><br>
+                <input type="submit" value="Submit">
+            </div>
+
 
         </fieldset>
     </form>
