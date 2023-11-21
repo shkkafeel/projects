@@ -4,66 +4,142 @@
 <head>
     <link rel="stylesheet" href="basicperiodictable.css">
     <title>Basic Periodic Table</title>
+
+    <style>
+        
+        table {
+            /* border: 5px solid rgb(74, 118, 53); */
+            margin: 20px auto;
+        }
+
+        h1, h3 {
+            text-align: center;
+            color: rgb(70, 61, 155);
+            
+        }
+
+        h2 {
+            text-align: center;
+            
+        }
+
+        h6 {
+            text-align: center;
+            /* background-color: rgb(255, 255, 255);
+            color: black; */
+            padding: 5px 9px 5px 9px;
+
+            
+        }
+
+        td {
+            color: rgb(255, 255, 255);
+            font-family: helvetica, arial, sans-serif;
+            padding: 12px 3px;
+            background-color: rgb(70, 61, 155);
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all ease 1.5s;
+
+        }
+
+
+        td:hover {
+            scale: 1.7;
+        }
+
+        .noscale {
+            scale: 0;
+        }
+
+        .noblegases {
+            background-color: rgb(192, 71, 71);
+        }
+
+        .reactivenonmetals {
+            background-color: rgb(0, 136, 255);
+        }
+
+        .alkalineearthmetals {
+            background-color: rgb(207, 128, 31);
+        }
+
+    </style>
 </head>
 
 <body>
 
-    <table border="4px">
+    <table>
+        <h1>Periodic Table</h1>
+        <h3><marquee behavior="" direction=""> &copy;shkkafeel </marquee></h3>
         <tr>
-            <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" >
+               <h4>1</h4>
+               <h2>H</h2>
+               <h6>Hydrogen</h6>
+               <h5>reactive Non-metal</h5>
             </td>
-            <td colspan="16">
+            <td class="noscale" colspan="16" style="background-color: white;">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
 
-            <td rowspan="1">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noblegases" rowspan="1">
+                <h4>2</h4>
+                <h2>He</h2>
+               <h6>Helium</h6>
+               <h5>Noble Gas</h5>
             </td>
         </tr>
         <tr>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Li&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="alkalineearthmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td colspan="10"></td>
+            <td class="noscale" colspan="10" style="background-color: white;"></td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">
+                <h4>6</h4>
+                <h2>C</h2>
+                <h6>Carbon</h6>
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">
+                <h4>7</h4>
+                <h2>N</h2>
+                <h6>Nitrogen</h6>
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noblegases" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ne&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
 
         </tr>
         <tr>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="alkalineearthmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td colspan="10"></td>
+            <td class="noscale" colspan="10" style="background-color: white;"></td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noblegases" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="alkalineearthmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
@@ -91,17 +167,17 @@
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Br&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Br&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noblegases" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="alkalineearthmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
@@ -131,15 +207,15 @@
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Te&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="reactivenonmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noblegases" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ba&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="alkalineearthmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ba&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
@@ -171,13 +247,13 @@
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noblegases" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="alkalineearthmetals" rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ac&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
@@ -213,12 +289,12 @@
             </td>
         </tr>
         <tr>
-           <td colspan="18">&nbsp;</td>
-            
+            <td class="noscale" colspan="18" style="background-color: white;">&nbsp;</td>
+
         <tr>
-            <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noscale" colspan="2" style="background-color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            
+
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ce&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -247,11 +323,11 @@
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noscale" colspan="2" style="background-color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
         <tr>
-            <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noscale" colspan="2" style="background-color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Th&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
@@ -281,10 +357,10 @@
             </td>
             <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
-            <td rowspan="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="noscale" colspan="2" style="background-color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
-        
+
     </table>
 </body>
 
