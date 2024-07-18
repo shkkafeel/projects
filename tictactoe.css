@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2c3e50;
+    background-color: #5e0a26;
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -39,7 +39,7 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #2ecc71;
+    background-color: #0270ff;
     color: #fff;
     border: none;
     outline: none;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #17aa03;
 }
 
 .container {
@@ -66,7 +66,7 @@ button:hover {
     height: 100px;
     font-size: 24px;
     font-weight: bold;
-    background-color: #3498db;
+    background-color: #b7babd;
     color: #fff;
     border: none;
     outline: none;
@@ -79,7 +79,7 @@ button:hover {
 }
 
 .success{
-    color: green;
+    color: rgb(71, 216, 71);
 }
 
 #winMessage{
@@ -88,13 +88,13 @@ button:hover {
 }
 
 .btns:hover {
-    background-color: #2980b9;
+    background-color: #395d75;
 }
 
 
 .btns:disabled {
     cursor: not-allowed;
-    background-color: #bdc3c7;
+    background-color: #bb6645;
     color: #7f8c8d;
 }
 
